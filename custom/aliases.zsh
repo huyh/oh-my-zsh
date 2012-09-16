@@ -1,3 +1,6 @@
+alias tu="top -o cpu"
+alias tm="top -o vsize"
+
 alias glog="git log --graph --pretty=\"format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset\""
 alias rake='noglob bundle exec rake'
 alias git='noglob git'
