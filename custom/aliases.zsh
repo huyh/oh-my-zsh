@@ -6,3 +6,6 @@ alias rake='noglob bundle exec rake'
 alias git='noglob git'
 alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgstop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+
+alias rc='bundle exec rails console'
+alias rs='bundle exec rails server'

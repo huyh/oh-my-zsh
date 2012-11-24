@@ -1,0 +1,5 @@
+alias la="cd ${HOME}/dev/myob/liveaccounts"
+alias fe="cd ${HOME}/dev/myob/liveaccounts/frontend"
+alias go="time ./go.sh"
+alias clean-au="bundle exec buildr la:webapp:test:resources -e local_au"
+alias clean-nz="bundle exec buildr la:webapp:test:resources -e local_nz"
